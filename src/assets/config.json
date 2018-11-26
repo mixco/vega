@@ -1,0 +1,14 @@
+{
+    "languages": [{
+            "abr": "en",
+            "name": "English"
+        },
+        {
+            "abr": "sr",
+            "name": "Srpski"
+        }
+    ],
+    "colors": {
+        "header": "#cccccc"
+    }
+}

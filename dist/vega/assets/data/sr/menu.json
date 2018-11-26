@@ -1,0 +1,185 @@
+[{
+        "title": "Home",
+        "component": "home",
+        "id": 0,
+        "submenu": []
+    },
+    {
+        "title": "Usluge",
+        "component": "services",
+        "id": 1,
+        "submenu": [{
+                "title": "Razvoj hardvera",
+                "desc": "We develop electronic circuits to run software applications, run dedicated hardwired algorithms, support mechanical subsystems, provide power or combination of all.",
+                "icon": "important_devices",
+                "img": "mb.png",
+                "state": "active",
+                "id": 11
+            },
+            {
+                "title": "Software and Algorithms",
+                "desc": "With any processor on a Printed Circuit Board, it is all dead silicon without the software.",
+                "icon": "adjust",
+                "img": "mb.png",
+                "state": "active",
+                "id": 12
+            },
+            {
+                "title": "PCB Layout",
+                "desc": "The technology available to board manufacturer is also our limit. We work with fine pitch BGA packages, High Density Interconnects, blind vias, buried vias, tackle high speed signal integrity issues… ",
+                "icon": "done_all",
+                "img": "mb.png",
+                "state": "active",
+                "id": 13
+            },
+            {
+                "title": "FPGA Design",
+                "desc": "Although considered part of the hardware development, engineers specialize on working with Field Programmable Gate Arrays.",
+                "icon": "gradient",
+                "img": "mb.png",
+                "state": "active",
+                "id": 14
+            },
+            {
+                "title": "Test Platforms",
+                "desc": "Production test jigs for submodules or fully assembled systems.",
+                "icon": "devices_other",
+                "img": "mb.png",
+                "state": "active",
+                "id": 15
+            },
+            {
+                "title": "Compliance Testing",
+                "desc": "Electro Magnetic Interference (Emission and Susceptibility) Compliance is of primary concern for complex electronic devices. ",
+                "icon": "developer_board",
+                "img": "mb.png",
+                "state": "active",
+                "id": 16
+            },
+            {
+                "title": "Turnkey Solutions",
+                "desc": "Complete solution for an electronic device is simply sum of all services we provide. ",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 17
+            },
+            {
+                "title": "Consulting",
+                "desc": "A broad architectural proposal or advice on small technical details on hourly or per job basis. Try our free initial technical discussion offer.  ",
+                "icon": "wb_incandescent",
+                "img": "mb.png",
+                "state": "active",
+                "id": 18
+            }
+        ]
+    },
+    {
+        "title": "Tehnologije",
+        "component": "technologies",
+        "id": 2,
+        "submenu": [{
+                "title": "Sistemi u realnom vremenu",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 21
+            },
+            {
+                "title": "Embedded Platforms",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 22
+            },
+            {
+                "title": "General Processing",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 23
+            },
+            {
+                "title": "Digital Signal Processing",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 24
+            },
+            {
+                "title": "FPGA",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 25
+            },
+            {
+                "title": "Algorithm Development",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 26
+            },
+            {
+                "title": "High Speed Digital Design",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 27
+            },
+            {
+                "title": "Design for Electro Magnetic Compliance",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 28
+            },
+            {
+                "title": "Power Supplies & Power Management",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 29
+            }
+        ]
+    },
+    {
+        "title": "O nama",
+        "component": "about",
+        "id": 3,
+        "submenu": [{
+                "title": "O nama",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 31
+            },
+            {
+                "title": "Code of Conduct",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 32
+            },
+            {
+                "title": "Contact",
+                "desc": "",
+                "icon": "vpn_key",
+                "img": "mb.png",
+                "state": "active",
+                "id": 33
+            }
+        ]
+    }
+]

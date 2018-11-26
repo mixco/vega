@@ -1,0 +1,107 @@
+[{
+        "link": "Hardware Base for Software Products",
+        "text": "Software products have years of lifespan, but tend to evolve on almost daily basis. For many businesses the hardware is only a necessary tool to run their products, the software. Such hardware platforms may need to be designed, or upgraded only once in a long period. Keeping a hardware group on standby is very expensive and this is where we position ourselves. Come to us with your requirements, we develop, build, certify and provide future support.",
+        "img": "temp0.png",
+        "icon": "bowling-ball",
+        "pid": 11
+    },
+
+    {
+        "link": "Team Support",
+        "text": "Supporting overwhelmed hardware teams. With the experience on our side, we believe we can quickly understand your product and get in line with the core group. Flexible enough to follow your design principles, we readily accept small and big assignments.",
+        "img": "",
+        "icon": "anchor",
+        "pid": 11
+    },
+
+    {
+        "link": "System from Scratch",
+        "text": "In this scenario we investigate functionality, environment, available technologies, regulatory requirements, product expected life span, cost sensitivity, upgradeability, manufacturability, schedules and other aspects. These are all the foundations of the actual development that follow.",
+        "img": "temp2.png",
+        "icon": "anchor",
+        "pid": 11
+    },
+
+    {
+        "link": "Boot and Operating System",
+        "text": "Our software engineers bring platforms to operational level.  That is: create the boot code, install OS, install, modify or create drivers, write Power on Self tests (POST) and handle configuration parameters.This work is also essential to hardware team for verification purposes.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 12
+    },
+
+    {
+        "link": "Application Software",
+        "text": "Boot and POST is what we almost always do for platforms that we develop. When it comes to application software, it is so versatile that there is hardly any team in the world that can say in advance, “Yes, we can do it”! We do not want to make false promises. We may have in house knowledge to execute, or need to work with your or some other external support.",
+        "img": "temp1.png",
+        "icon": "anchor",
+        "pid": 12
+    },
+
+    {
+        "link": "Algorithms",
+        "text": "For real time systems the control of connected devices is the key component. We take the task of working on the specific algorithm: what, how, when and why something happens.",
+        "img": "temp2.png",
+        "icon": "anchor",
+        "pid": 12
+    },
+
+    {
+        "link": "Basic Layout Service",
+        "text": "With basic layout service, close cooperation with schematic engineers on your side is imperative.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 13
+    },
+
+    {
+        "link": "Extended Service",
+        "text": "Our layout designers are hardware engineers. We dig into your design to understand it better to make good component placement, calculate impedances, create stack, identify critical nets and EMI issues, etc. The result is extensive list of rules for the design, which must also be in line with good DFM and DFT practices (Design for Manufacturing, Design for Testing). ",
+        "img": "temp1.png",
+        "icon": "anchor",
+        "pid": 13
+    },
+
+    {
+        "link": "Xilinx, Altera, Lattice",
+        "text": "Our team will tackle designs from scratch, incorporate third party IPs, do timing analysis and improvements, run simulations. As a whole, FPGA solution deliverables are source code, test bench code and documentation.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 14
+    },
+
+    {
+        "link": "Hardware",
+        "text": "We develop supporting hardware for production tests (test jigs) such as load simulations, power and stimulus for independent submodule testing, etc. In Circuit Test beds (ICT) down to 40 mils density.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 15
+    },
+
+    {
+        "link": "Software",
+        "text": "As part of our software services we also develop manufacturing test codes. These easy to follow, guided tests are invaluable for manufacturing process. Early detection of errors during the production usually save thousands of dollars and the reputation of delivering quality products is priceless. Test code may run on the actual platform or on supporting hardware.",
+        "img": "temp1.png",
+        "icon": "anchor",
+        "pid": 15
+    },
+
+
+    {
+        "link": "Design for EMI Compliance",
+        "text": "Design for Compliance to any regulatory standard is inherent part of any development, with EMI being one of the big ticket items. In this field more eyes is always better. Contact us for ides and reviews.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 16
+
+    },
+
+    {
+        "link": "Lab Testing",
+        "text": "With on-premises certified lab we can tackle EMI issues fast and efficiently. ",
+        "img": "temp1.png",
+        "icon": "anchor",
+        "pid": 16
+    }
+
+]

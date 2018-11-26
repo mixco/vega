@@ -1,0 +1,73 @@
+<div class="container">
+    <div class="row">
+        <div class="col btm1rem">
+            <a class="btn btn-light" (click)="navigateBack()" [innerHTML]="getResource('btn_back')"></a>
+        </div>
+    </div>
+    <div class="row" *ngIf="tab">
+        <!-- Accordion -->
+        <div class="col" *ngIf="tab.length>1">
+            <ngb-accordion [closeOthers]="true" activeIds="static-0">
+                <ng-container *ngFor="let item of tab; let i=index">
+                    <ngb-panel id="static-{{i}}">
+                        <ng-template ngbPanelTitle>
+                            <i class="home-icon fas" *ngIf="item.icon!==''" [ngClass]="'fa-'+item.icon"></i> {{item.link}}
+                        </ng-template>
+                        <ng-template ngbPanelContent>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        <ng-container *ngIf="item.img !== ''; else imgPlaceholder">
+                                            <img [src]="'./assets/images/' + item.img" alt="">
+                                        </ng-container>
+                                        <ng-template #imgPlaceholder>
+                                            <img src="./assets/images/gray-block.png" alt="">
+                                        </ng-template>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-8">
+                                        {{item.text}}
+                                    </div>
+                                </div>
+                            </div>
+                        </ng-template>
+                    </ngb-panel>
+                </ng-container>
+            </ngb-accordion>
+        </div>
+        <!-- End of Accordion -->
+
+        <!-- Single item -->
+        <div class="col" *ngIf="tab.length===1">
+            <div class="card">
+                <div class="card-header">
+                    {{tab[0].link}}
+                    <span [innerHTML]="getResource('title_featured')" *ngIf="tab[0].link===''"></span>
+                </div>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <img src="./assets/images/gray-block.png" alt="">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-8">
+                                {{tab[0].text}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Single item -->
+
+        <!-- No content -->
+        <div class="col" *ngIf="tab.length===0">
+            <span [innerHTML]="getResource('no_content')"></span>
+        </div>
+    </div>
+
+    <div class="row" *ngIf="tab.length>4">
+        <div class="col" [ngStyle]="{'margin-top': '0.5rem'}">
+            <a class="btn btn-light" (click)="navigateBack()" [innerHTML]="getResource('btn_back')"></a>
+        </div>
+    </div>
+</div>

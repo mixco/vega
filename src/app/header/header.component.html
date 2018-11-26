@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleCollapsed()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" width="86" height="38" alt="">
+                </a>
+                <div class="navbar-collapse" id="navbarSupportedContent" [ngClass]="{'collapse': isCollapsed}">
+                    <ul class="navbar-nav" *ngIf="menu">
+                        <li *ngFor="let item of menu; let i = index" class="nav-item" [ngClass]="{'active':i==0 }" (click)="toggleCollapsed()">
+                            <a class="nav-link" routerLink="/home" *ngIf="i===0"> {{item.title}} <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" [routerLink]="['/tab', item.id]" href="#" *ngIf="i>0">{{item.title}}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-inline my-2 my-lg-0">
+                    <ng-container *ngFor=" let lang of languages ">
+                        <button type="button" class="btn spc05rem" (click)="switchLanguage(lang.abr)" [ngClass]="{'btn-light': selected!==lang.abr, 'btn-secondary': selected===lang.abr}">{{lang.abr}}</button>
+                        <!-- <button [class.active]="selected === lang.name" (click)="selected = (selected === lang ? null :lang)">{{lang.abr}}</button> -->
+                    </ng-container>
+                    <!-- <button type="button" class="btn btn-secondary spc05rem" (click)="switchLanguage('en')">en</button> -->
+                    <!-- <button type="button" class="btn btn-light" (click)="switchLanguage('sr')">sr</button> -->
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+[{
+        "link": "",
+        "text": "Whenever a system must act upon a stimulus within strict time limits, that system is categorized as \"real-time\" system. High predictability is the imperative, while performance needs to go only as high as it is needed for the task. A typical example is car airbag; upon accident it must inflate in milliseconds otherwise the whole system is useless. Engineers designing real-time systems must fully understand the environment in which it operates. Beside the necessity, we also enjoy digging into multidisciplinary engineering and science, beyond pure electronics and software.  ",
+        "icon": "bowling-ball",
+        "pid": 21
+    },
+
+    {
+        "link": "",
+        "text": "Embedded platforms, electronic circuits with dedicated functionality. Such platform contains interfaces specific to the system in which it is embedded. Although designed to execute only specific tasks, embedded systems may run very complex software (in this content called firmware), due to the complexity of the task itself. Other than processing, mechanical and environmental integration is the next big thing in this field. More often than not, embedded systems operate in \"real-time\". We specialized in embedded, real time system development.  ",
+        "img": "temp1.png",
+        "icon": "bowling-ball",
+        "pid": 22
+    },
+
+    {
+        "link": "",
+        "text": "Any system that requires some control contains a processor. It could be a tiny 8 bit controller with only Kilo-Bytes of memory, or very large application processor or SoC with a number of peripherals for higher integration and Giga-Bytes of external memory of various technologies. The experience with ARM and PowerPC cores is one of the most valuable assets of our group.",
+        "img": "temp2.png",
+        "icon": "bowling-ball",
+        "pid": 23
+    },
+
+    {
+        "link": "",
+        "text": "Digital Signal Processors. This kind of processors are designed for computing, rather than connectivity, which is the characteristic of microcontrollers. Complex operations, such as video processing typically run on a DSP (in this particular case all operations must finish before the next frame arrives).",
+        "img": "temp0.png",
+        "icon": "bowling-ball",
+        "pid": 24
+    },
+
+    {
+        "link": "FPGA",
+        "text": "Field Programmable Gate Array is an in chip configurable digital circuit. The FPGAs are mainly used to run specific tasks, such as calculations (even faster than DSPs) or to interface to a non-standard circuit. By incorporating FPGA(s), a platform gets a dedicated hardware accelerator or glue logic at reasonable cost. The only thing faster than that is an ASIC (Application Specific Integrated Circuit), but to make any financial sense they must be produced in very large quantities. FPGAs are sometimes used for functional testing of a future ASIC.",
+        "img": "temp1.png",
+        "icon": "bowling-ball",
+        "pid": 25
+    }
+
+]

@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row home-head-img">
+        <div class="col-4 orange-bck">
+            <h2>{{home?.title}}</h2>
+            <h3>{{home?.subtitle}}</h3>
+        </div>
+        <div class="col-8">
+        </div>
+    </div>
+    <div class="row" *ngIf="home?.submenu.length>0">
+        <ng-container *ngFor="let item of home.submenu; let i=index">
+            <div class="col-4 pd1rem home-title txt-right">
+                <i class="home-icon fas" [ngClass]="'fa-'+item.icon"></i> {{item.title}}
+            </div>
+            <div class="col-8 pd1rem">
+                <ng-container *ngIf="item.content.length > 1; else singleItem">
+                    <ul [ngStyle]="{'padding-left': '5px'}">
+                        <li class="home-font-weight" *ngFor="let cont of item.content">{{cont}}</li>
+                    </ul>
+                </ng-container>
+                <ng-template #singleItem>
+                    <div class="home-font-weight">{{item.content[0]}}</div>
+                </ng-template>
+            </div>
+        </ng-container>
+    </div>
+</div>

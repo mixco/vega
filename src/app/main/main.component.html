@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row" *ngIf="menu">
+        <ng-container *ngFor="let item of menu; let i=index">
+            <div class="col-sm-4">
+                <div class="card btm1rem">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="home-icon fas" *ngIf="item.icon!==''" [ngClass]="'fa-'+item.icon"></i> {{item.title}}</h5>
+                        <p class="card-text">{{item.desc}}</p>
+                        <a class="btn btn-info" routerLink="/details/{{item.id}}" [innerHTML]="getResource('btn_open')"></a>
+                        <!-- <a href="#" class="btn btn-primary" (click)="navigateToDetail(item.id)">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>
