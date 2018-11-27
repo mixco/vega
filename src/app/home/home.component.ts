@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       this.getHomePage();
       this.languageService.detectLanguageChange
       .subscribe(message => {
-       console.log(message);
+      //  console.log(message);
        this.getHomePage();
       });  
   }
@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.getMenuService.getContent(url)
       .subscribe(c => {
         this.home = c;
-        console.log(this.home);
+        // console.log(this.home);
       });
   }
 

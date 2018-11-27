@@ -28,7 +28,7 @@ export class DetailsComponent implements OnInit {
     this.getContent();
     this.languageService.detectLanguageChange
     .subscribe(message => {
-     console.log(message);
+    //  console.log(message);
      this.getContent();
     }); 
   }
@@ -39,7 +39,7 @@ export class DetailsComponent implements OnInit {
     this.getMenuService.getContent(url)
       .subscribe(c => {
         this.tab = c.filter(item => item.pid === +id);
-        console.log('tab = ' + this.tab);
+        // console.log('tab = ' + this.tab);
       });
   }
 

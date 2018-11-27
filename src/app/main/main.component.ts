@@ -33,7 +33,7 @@ export class MainComponent implements OnInit, OnDestroy {
     });
     this.languageService.detectLanguageChange
     .subscribe(message => {
-     console.log(message);
+    //  console.log(message);
      this.getContent();
     }); 
   }

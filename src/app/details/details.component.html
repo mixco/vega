@@ -60,12 +60,12 @@
         <!-- End of Single item -->
 
         <!-- No content -->
-        <div class="col" *ngIf="tab.length===0">
+        <div class="col" *ngIf="tab?.length===0">
             <span [innerHTML]="getResource('no_content')"></span>
         </div>
     </div>
 
-    <div class="row" *ngIf="tab.length>4">
+    <div class="row" *ngIf="tab?.length>4">
         <div class="col" [ngStyle]="{'margin-top': '0.5rem'}">
             <a class="btn btn-light" (click)="navigateBack()" [innerHTML]="getResource('btn_back')"></a>
         </div>
