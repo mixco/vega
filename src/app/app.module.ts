@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
 import { LanguageService } from './shared/services/language.service';
+import { RoutingStateService } from './shared/services/routing-state.service';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { LanguageService } from './shared/services/language.service';
   providers: [
     GetMenuService,
     GetConfigService,
+    RoutingStateService,
     LanguageService,
     {
       provide: LocationStrategy,

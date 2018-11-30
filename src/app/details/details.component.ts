@@ -5,6 +5,7 @@ import { Tab } from '../shared/model/menu';
 import { ActivatedRoute } from '@angular/router';
 import { LanguageService } from '../shared/services/language.service';
 import { ResourcesService } from '../shared/services/resources.service';
+import { RoutingStateService } from '../shared/services/routing-state.service';
 
 @Component({
   selector: 'app-details',
@@ -14,13 +15,17 @@ import { ResourcesService } from '../shared/services/resources.service';
 export class DetailsComponent implements OnInit {
   tab: Tab[];
   resource = [];
+  previousRoute: string;
 
   constructor(
     private getMenuService: GetMenuService,
     private location: Location,
     private route: ActivatedRoute,
     private languageService: LanguageService,
-    private resourcesService: ResourcesService) { }
+    private routingState: RoutingStateService,
+    private resourcesService: ResourcesService) {
+      this.routingState.loadRouting();
+    }
 
   ngOnInit() {
     // get all resources
@@ -30,7 +35,8 @@ export class DetailsComponent implements OnInit {
     .subscribe(message => {
     //  console.log(message);
      this.getContent();
-    }); 
+    });
+    this.previousRoute = this.routingState.getPreviousUrl();
   }
 
   getContent() {
