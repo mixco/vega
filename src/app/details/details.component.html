@@ -1,7 +1,8 @@
 <div class="container">
     <div class="row">
         <div class="col btm1rem">
-            <a class="btn btn-light" (click)="navigateBack()" [innerHTML]="getResource('btn_back')"></a>
+            <button class="btn btn-outline-secondary" (click)="navigateBack()" [innerHTML]="getResource('btn_back')"></button>
+            <small class="font-weight-light" [ngStyle]="{'margin-left': '1rem', 'color': '##a6630c'}">{{menuTitle}} / {{subMenuTitle}}</small>
         </div>
     </div>
     <div class="row" *ngIf="tab">
@@ -25,7 +26,7 @@
                                         </ng-template>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-8">
-                                        {{item.text}}
+                                        <span [innerHTML]="processLinks(item.text)"></span>
                                     </div>
                                 </div>
                             </div>

@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
 import { LanguageService } from './shared/services/language.service';
 import { RoutingStateService } from './shared/services/routing-state.service';
+import { HelperService } from './shared/services/helper.service';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { RoutingStateService } from './shared/services/routing-state.service';
     GetMenuService,
     GetConfigService,
     RoutingStateService,
+    HelperService,
     LanguageService,
     {
       provide: LocationStrategy,

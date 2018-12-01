@@ -4,6 +4,7 @@ import { Menu } from '../shared/model/menu';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { LanguageService } from '../shared/services/language.service';
 import { ResourcesService } from '../shared/services/resources.service';
+import { HelperService } from '../shared/services/helper.service';
 
 @Component({
   selector: 'app-main',
@@ -19,6 +20,7 @@ export class MainComponent implements OnInit, OnDestroy {
               private route: ActivatedRoute,
               private router: Router,
               private resourcesService: ResourcesService,
+              private helperService: HelperService,
               private languageService: LanguageService) { }
 
   ngOnInit() {
@@ -56,6 +58,21 @@ export class MainComponent implements OnInit, OnDestroy {
   getResource(name:string){
     const lng =  this.languageService.getLanguage();
     return this.resource[lng][name];
+  }
+
+  // replacer(str, offset, s) {
+  //   const found = str.substr(0, str.length-1);
+  //   // alert(`Found found at position ${offset} in string ${s}`);
+  //   const retVal = "<a href='"+ found +"' target='_blank'>" + found + "</a>"
+  //   return retVal;
+  // }
+
+  processLinks(desc:string){
+    const position = desc.search('http');
+    if(position>0){
+      return desc.replace(/http(.*?)(#)/g, this.helperService.replacer);
+    }
+      return desc;
   }
 
   ngOnDestroy() {

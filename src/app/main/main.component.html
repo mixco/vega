@@ -5,7 +5,7 @@
                 <div class="card btm1rem">
                     <div class="card-body">
                         <h5 class="card-title"><i class="home-icon fas" *ngIf="item.icon!==''" [ngClass]="'fa-'+item.icon"></i> {{item.title}}</h5>
-                        <p class="card-text">{{item.desc}}</p>
+                        <p class="card-text" [innerHTML]="processLinks(item.desc)"></p>
                         <a class="btn btn-info" routerLink="/details/{{item.id}}" [innerHTML]="getResource('btn_open')"></a>
                         <!-- <a href="#" class="btn btn-primary" (click)="navigateToDetail(item.id)">Go somewhere</a> -->
                     </div>

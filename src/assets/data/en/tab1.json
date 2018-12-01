@@ -1,24 +1,24 @@
 [{
-        "link": "Hardware Base for Software Products",
-        "text": "Software products have years of lifespan, but tend to evolve on almost daily basis. For many businesses the hardware is only a necessary tool to run their products, the software. Such hardware platforms may need to be designed, or upgraded only once in a long period. Keeping a hardware group on standby is very expensive and this is where we position ourselves. Come to us with your requirements, we develop, build, certify and provide future support.",
-        "img": "temp0.png",
-        "icon": "bowling-ball",
+        "link": "Prerequisites",
+        "text": " There are no formal prerequisites for this beginner course other then age, 14+. Visit https://ontariosailing.ca/#. Swiming skills are desirable, but not required. Still, you should be comfortable on water far from shore. Unlike dinghy sailing, capsizing is not a 'daily routine' on a keelboat, although crew members may accidently end up in the water. If you attended an introductory course, have crewed on a boat or are engaged in other water sports all the better. For more, see https://canadiansailings.ca/#",
+        "img": "prereq_basic.jpg",
+        "icon": "ban",
         "pid": 11
     },
 
     {
-        "link": "Team Support",
-        "text": "Supporting overwhelmed hardware teams. With the experience on our side, we believe we can quickly understand your product and get in line with the core group. Flexible enough to follow your design principles, we readily accept small and big assignments.",
+        "link": "Course Description",
+        "text": "Basic Cruising Standard is Sail Canada first level skipper course. The course is designed for beginners and those with little experience. May sound too basic, but whether on a daily cruise or across the ocean, you will be using sailing terminology, maneuvers and safety procedures you learn at this level. The aim is to learn how to operate a boat under sail and under power with some basic cruising skills. The emphasis is on proper techniques and safety.\\n By the end of this course, candidate should be able to cruise safely in familiar waters as both skipper and crew of a sloop rigged keelboat of 6 to 10 meters with an outboard or inboard motor in moderate wind and sea conditions by day. \\n curiculum .. bla ... bla \\n... 27 hours total .. classroom, on water....bla, bla ...\\n The Exam \\n To get the certificate you must pass both ashore and afloat tests. Ashore knowledge test consists of set of questions and you must achieve 70%. Normally the exam is organized at the end of th course. If you do not pass you will get a second chance minimum 14 days later. \\nThe afloat skills are evaluated on the on-going basis. Nobody became a professional skipper after a few days on the water, but you should be able to safely operate the boat in moderate conditions and /n familiar waters. ",
         "img": "",
         "icon": "anchor",
         "pid": 11
     },
 
     {
-        "link": "System from Scratch",
-        "text": "In this scenario we investigate functionality, environment, available technologies, regulatory requirements, product expected life span, cost sensitivity, upgradeability, manufacturability, schedules and other aspects. These are all the foundations of the actual development that follow.",
+        "link": "Specifics",
+        "text": "Our primary activty for the upcoming season will be Sail Canada 2 - Intermediate Cruising Standard course. If you are interested in this basic course, please contact us for arrangement.\\nPrice for tis course is CND$ 600 or 400 Euros.\\n included are \\n bla...bla",
         "img": "temp2.png",
-        "icon": "anchor",
+        "icon": "calendar-alt",
         "pid": 11
     },
 
