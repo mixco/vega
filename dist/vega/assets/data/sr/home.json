@@ -1,29 +1,30 @@
 {
-    "title": "Konsultatntske usluge elektroinžinjeringa",
-    "subtitle": "Elektronika i napajanje",
+    "title": "Vega Sailing",
+    "subtitle": "slogan xxx",
     "submenu": [{
-            "title": "Usluge",
-            "content": ["Full turnkey solution", "Hourly consultation", "Individual engineer working on contract for you", "Partial design services within your development work frame", "Small production runs"]
+            "icon": "compass",
+            "title": "Jedriličarski kursevi",
+            "content": [
+                "Sail Canada sertifikati", 
+                "Praktični kursevi u Grčkoj", 
+                "Navigacioni kursevi u Beogradu", 
+                "Licence za operatera pomorske VHF radio stanice"]
         },
         {
-            "title": "Podrška",
+            "icon": "life-ring",
+            "title": "Jedrenje u flotili",
             "content": [
-                "Customers with insufficient own engineering resources",
-                "Companies with seldom needs for electronic designs",
-                "Software companies looking for custom or integrated of-the-shelf hardware",
-                "Start-ups and proof of concepts ventures"
+                "Jedrenje nezavisnih posada, ali u društvu"
             ]
         },
         {
-            "title": "Balanced Outsorcing",
+            "icon": "binoculars",
+            "title": "Jedriličarkse informacije",
             "content": [
-                "Cost effective and controlled operation is possible.",
-                "Two tightly connected engineering teams: North America - Toronto and East Europe - Belgrade."
+                "Krsteranje u Grčkoj",
+                "Boforova skala"
             ]
-        },
-        {
-            "title": "Besplatno",
-            "content": ["If you need advice on a solution, or simply want to evaluate if we could support you, call us. We will invest a reasonable amount of time, free of charge, to help you shape a solution or resolve a problem."]
         }
+        
     ]
 }

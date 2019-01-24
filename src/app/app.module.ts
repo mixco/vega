@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule, NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -16,6 +16,7 @@ import { DetailsComponent } from './details/details.component';
 import { LanguageService } from './shared/services/language.service';
 import { RoutingStateService } from './shared/services/routing-state.service';
 import { HelperService } from './shared/services/helper.service';
+import { ModalComponent} from './shared/modal.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HelperService } from './shared/services/helper.service';
     HeaderComponent,
     MainComponent,
     HomeComponent,
-    DetailsComponent
+    DetailsComponent,
+    ModalComponent
   ],
   imports: [
     NgbModule.forRoot(),
@@ -40,11 +42,13 @@ import { HelperService } from './shared/services/helper.service';
     RoutingStateService,
     HelperService,
     LanguageService,
+    NgbActiveModal,
     {
       provide: LocationStrategy,
       useClass: HashLocationStrategy,
     },
   ],
+  entryComponents: [ModalComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

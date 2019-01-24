@@ -8,24 +8,25 @@
         "title": "Courses",
         "component": "courses",
         "id": 1,
-        "submenu": [{
-                "title": "  About Our Courses ",
-                "desc": "General information on location, boats, accomodation, living aboard. Visit https://ontariosailing.ca/#",
+        "submenu": [
+            {
+                "title": " Overview of the Courses ",
+                "desc": "General information on learning path, licensing, participation.",
                 "icon": "asterisk",
                 "img": "mb.png",
                 "state": "active",
-                "id": 11
+                "id": 16
             },
             {
-                "title": "  Sail Canada I Course - Basic Cruising Standard ",
-                "desc": "Sail in familiar waters, in moderate wind and sea conditions by day. 27 hours, mainly on water.",
+                "title": "  Basic Cruising Course - Sail Canada Level I",
+                "desc": "Sail in familiar waters, in moderate wind and sea conditions by day. 27 hours, mostly on water.",
                 "icon": "water",
                 "img": "mb.png",
                 "state": "active",
                 "id": 11
             },
             {
-                "title": "  Sail Canada II Course - Intermediate Cruising Standard ",
+                "title": "  Intermediate Cruising Course - Sail Canada Level II",
                 "desc": "Gain skills for extended cruising in coastal waters and for bareboat chartering. 7 days liveaboard.",
                 "icon": "water",
                 "img": "mb.png",
@@ -33,7 +34,7 @@
                 "id": 12
             },
             {
-                "title": "  Sail Canada BN Course - Coastal Navigation Standard",
+                "title": "  Basic Coastal Navigation Course - Sail Canada BN",
                 "desc": " Plan voyages and safely navigate in coastal and inland waters. 18 classroom hours.",
                 "icon": "drafting-compass",
                 "img": "mb.png",
@@ -41,8 +42,8 @@
                 "id": 13
             },
             {
-                "title": "  ROC(M) Course - Marine VHF license",
-                "desc": "Canadian Federal government issued license that allows you to operate a marine VHF radio, accepted worldwide. 9 classroom hours",
+                "title": "  ROC(M) Course - Marine VHF Radio with DSC License",
+                "desc": "Canadian Federal government issued license that allows you to operate a marine VHF radio, accepted worldwide. 9 classroom hours.",
                 "icon": "atom",
                 "img": "mb.png",
                 "state": "active",
@@ -56,22 +57,24 @@
                 "state": "active",
                 "id": 15
             }
+            
         ]
     },
     {
         "title": "Flotilla",
         "component": "flotilla",
         "id": 2,
-        "submenu": [{
-                "title": "Flot 1",
-                "desc": "",
+        "submenu": [
+            {
+                "title": "Flotilla 2019",
+                "desc": "Sail in Greek waters. Gain experience. Have fun. Make friends.",
                 "icon": "anchor",
                 "img": "mb.png",
                 "state": "active",
                 "id": 21
             },
             {
-                "title": "Flot 2",
+                "title": "Flotillas 2018 and earlier",
                 "desc": "",
                 "icon": "anchor",
                 "img": "mb.png",
@@ -84,29 +87,14 @@
         "title": "Sailing Info",
         "component": "sailing_info",
         "id": 3,
-        "submenu": [{
-                "title": "Bufourt Scale",
-                "desc": "",
+        "submenu": [
+            {
+                "title": "Beaufort Scale",
+                "desc": "Wind speed and sea state scale.",
                 "icon": "anchor",
                 "img": "mb.png",
                 "state": "active",
                 "id": 31
-            },
-            {
-                "title": "Learning to Sail",
-                "desc": "",
-                "icon": "anchor",
-                "img": "mb.png",
-                "state": "active",
-                "id": 32
-            },
-            {
-                "title": "Other",
-                "desc": "",
-                "icon": "anchor",
-                "img": "mb.png",
-                "state": "active",
-                "id": 33
             }
         ]
     },
@@ -115,7 +103,7 @@
         "component": "about",
         "id": 4,
         "submenu": [{
-                "title": "About Usx",
+                "title": "About Us",
                 "desc": "",
                 "icon": "anchor",
                 "img": "mb.png",
@@ -123,20 +111,12 @@
                 "id": 41
             },
             {
-                "title": "Code of Conductx",
+                "title": "Contact",
                 "desc": "",
                 "icon": "anchor",
                 "img": "mb.png",
                 "state": "active",
                 "id": 42
-            },
-            {
-                "title": "Contactx",
-                "desc": "",
-                "icon": "anchor",
-                "img": "mb.png",
-                "state": "active",
-                "id": 43
             }
         ]
     }

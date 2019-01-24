@@ -7,6 +7,9 @@ import { LanguageService } from '../shared/services/language.service';
 import { ResourcesService } from '../shared/services/resources.service';
 // import { RoutingStateService } from '../shared/services/routing-state.service';
 import { HelperService } from '../shared/services/helper.service';
+import { Subject } from 'rxjs';
+import { NgbModal, NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
+import { ModalComponent } from '../shared/modal.component';
 
 @Component({
   selector: 'app-details',
@@ -19,6 +22,7 @@ export class DetailsComponent implements OnInit {
   previousRoute: string;
   menuTitle = '';
   subMenuTitle = '';
+  subject:Subject<any> = new Subject();
 
   constructor(
     private getMenuService: GetMenuService,
@@ -27,7 +31,8 @@ export class DetailsComponent implements OnInit {
     private languageService: LanguageService,
     // private routingState: RoutingStateService,
     private helperService: HelperService,
-    private resourcesService: ResourcesService) {
+    private resourcesService: ResourcesService,
+    private modalService: NgbModal) {
       // this.routingState.loadRouting();
     }
 
@@ -43,13 +48,19 @@ export class DetailsComponent implements OnInit {
     // this.previousRoute = this.routingState.getPreviousUrl();
   }
 
+  startModal(img:string) {
+    // this.subject.next(img);
+    const modalRef = this.modalService.open(ModalComponent, {backdropClass: 'light-blue-backdrop', centered: true});
+    modalRef.componentInstance.name = img;
+  }
+
   getContent() {
     const id = this.route.snapshot.paramMap.get('id');
-    this.setBreadCrumbs(id);
     const url = 'tab' + id.substr(0, 1) + '.json';
     this.getMenuService.getContent(url)
-      .subscribe(c => {
-        this.tab = c.filter(item => item.pid === +id);
+    .subscribe(c => {
+      this.tab = c.filter(item => item.pid === +id);
+      this.setBreadCrumbs(id);
       });
   }
 

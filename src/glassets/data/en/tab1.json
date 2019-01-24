@@ -1,0 +1,107 @@
+[{
+        "link": "Prerequisites",
+        "text": " There are no formal prerequisites for this beginner course other then age, 14+. Visit https://ontariosailing.ca/#. Swiming skills are desirable, but not required. Still, you should be comfortable on water far from shore. Unlike dinghy sailing, capsizing is not a 'daily routine' on a keelboat, although crew members may accidently end up in the water. If you attended an introductory course, have crewed on a boat or are engaged in other water sports all the better. For more, see https://canadiansailings.ca/#",
+        "img": "prereq_basic.jpg",
+        "icon": "ban",
+        "pid": 11
+    },
+
+    {
+        "link": "Course Description",
+        "text": "Basic Cruising Standard is Sail Canada first level skipper course. The course is designed for beginners and those with little experience. May sound too basic, but whether on a daily cruise or across the ocean, you will be using sailing terminology, maneuvers and safety procedures you learn at this level. The aim is to learn how to operate a boat under sail and under power with some basic cruising skills. The emphasis is on proper techniques and safety.\\n By the end of this course, candidate should be able to cruise safely in familiar waters as both skipper and crew of a sloop rigged keelboat of 6 to 10 meters with an outboard or inboard motor in moderate wind and sea conditions by day. \\n curiculum .. bla ... bla \\n... 27 hours total .. classroom, on water....bla, bla ...\\n The Exam \\n To get the certificate you must pass both ashore and afloat tests. Ashore knowledge test consists of set of questions and you must achieve 70%. Normally the exam is organized at the end of th course. If you do not pass you will get a second chance minimum 14 days later. \\nThe afloat skills are evaluated on the on-going basis. Nobody became a professional skipper after a few days on the water, but you should be able to safely operate the boat in moderate conditions and /n familiar waters. ",
+        "img": "",
+        "icon": "anchor",
+        "pid": 11
+    },
+
+    {
+        "link": "Specifics",
+        "text": "Our primary activty for the upcoming season will be Sail Canada 2 - Intermediate Cruising Standard course. If you are interested in this basic course, please contact us for arrangement.\\nPrice for tis course is CND$ 600 or 400 Euros.\\n included are \\n bla...bla",
+        "img": "temp2.png",
+        "icon": "calendar-alt",
+        "pid": 11
+    },
+
+    {
+        "link": "Boot and Operating System",
+        "text": "Our software engineers bring platforms to operational level.  That is: create the boot code, install OS, install, modify or create drivers, write Power on Self tests (POST) and handle configuration parameters.This work is also essential to hardware team for verification purposes.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 12
+    },
+
+    {
+        "link": "Application Software",
+        "text": "Boot and POST is what we almost always do for platforms that we develop. When it comes to application software, it is so versatile that there is hardly any team in the world that can say in advance, “Yes, we can do it”! We do not want to make false promises. We may have in house knowledge to execute, or need to work with your or some other external support.",
+        "img": "temp1.png",
+        "icon": "anchor",
+        "pid": 12
+    },
+
+    {
+        "link": "Algorithms",
+        "text": "For real time systems the control of connected devices is the key component. We take the task of working on the specific algorithm: what, how, when and why something happens.",
+        "img": "temp2.png",
+        "icon": "anchor",
+        "pid": 12
+    },
+
+    {
+        "link": "Basic Layout Service",
+        "text": "With basic layout service, close cooperation with schematic engineers on your side is imperative.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 13
+    },
+
+    {
+        "link": "Extended Service",
+        "text": "Our layout designers are hardware engineers. We dig into your design to understand it better to make good component placement, calculate impedances, create stack, identify critical nets and EMI issues, etc. The result is extensive list of rules for the design, which must also be in line with good DFM and DFT practices (Design for Manufacturing, Design for Testing). ",
+        "img": "temp1.png",
+        "icon": "anchor",
+        "pid": 13
+    },
+
+    {
+        "link": "Xilinx, Altera, Lattice",
+        "text": "Our team will tackle designs from scratch, incorporate third party IPs, do timing analysis and improvements, run simulations. As a whole, FPGA solution deliverables are source code, test bench code and documentation.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 14
+    },
+
+    {
+        "link": "Hardware",
+        "text": "We develop supporting hardware for production tests (test jigs) such as load simulations, power and stimulus for independent submodule testing, etc. In Circuit Test beds (ICT) down to 40 mils density.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 15
+    },
+
+    {
+        "link": "Software",
+        "text": "As part of our software services we also develop manufacturing test codes. These easy to follow, guided tests are invaluable for manufacturing process. Early detection of errors during the production usually save thousands of dollars and the reputation of delivering quality products is priceless. Test code may run on the actual platform or on supporting hardware.",
+        "img": "temp1.png",
+        "icon": "anchor",
+        "pid": 15
+    },
+
+
+    {
+        "link": "Design for EMI Compliance",
+        "text": "Design for Compliance to any regulatory standard is inherent part of any development, with EMI being one of the big ticket items. In this field more eyes is always better. Contact us for ides and reviews.",
+        "img": "temp0.png",
+        "icon": "anchor",
+        "pid": 16
+
+    },
+
+    {
+        "link": "Lab Testing",
+        "text": "With on-premises certified lab we can tackle EMI issues fast and efficiently. ",
+        "img": "temp1.png",
+        "icon": "anchor",
+        "pid": 16
+    }
+
+]

@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row">
         <div class="col btm1rem">
-            <button class="btn btn-outline-secondary" (click)="navigateBack()" [innerHTML]="getResource('btn_back')"></button>
-            <small class="font-weight-light" [ngStyle]="{'margin-left': '1rem', 'color': '##a6630c'}">{{menuTitle}} / {{subMenuTitle}}</small>
+            <button class="btn btn-outline-secondary" (click)="navigateBack()" [innerHTML]="getResource('btn_back')" *ngIf="resource"></button>
+            <small class="font-weight-light" [ngStyle]="{'margin-left': '1rem', 'color': '#a6630c'}">{{menuTitle}} / {{subMenuTitle}}</small>
         </div>
     </div>
     <div class="row" *ngIf="tab">
@@ -18,11 +18,17 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-6 col-md-4">
-                                        <ng-container *ngIf="item.img !== ''; else imgPlaceholder">
+                                        <!-- <ng-container *ngIf="item.img !== ''; else imgPlaceholder">
                                             <img [src]="'./assets/images/' + item.img" alt="">
                                         </ng-container>
                                         <ng-template #imgPlaceholder>
                                             <img src="./assets/images/gray-block.png" alt="">
+                                        </ng-template> -->
+                                        <ng-container *ngIf="item.img !== ''; else imgPlaceholder">
+                                            <a (click)="startModal(item.img)"><img [src]="'./assets/images/' + item.img" alt="" width="95%" height="auto"></a>
+                                        </ng-container>
+                                        <ng-template #imgPlaceholder>
+                                            <a (click)="startModal(item.img)"><img src="./assets/images/gray-block.png" alt="" width="95%" height="auto"></a>
                                         </ng-template>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-8">
@@ -48,10 +54,17 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-4">
-                                <img src="./assets/images/gray-block.png" alt="">
+                                <!-- <img src="./assets/images/satelite_view_300x225.jpg" alt=""> -->
+                                <ng-container *ngIf="tab[0].img !== ''; else imgPlaceholder">
+                                    <a (click)="startModal(tab[0].img)"><img [src]="'./assets/images/' + tab[0].img" alt="" width="95%" height="auto"></a>
+                                </ng-container>
+                                <ng-template #imgPlaceholder>
+                                    <a (click)="startModal(tab[0].img)"><img src="./assets/images/gray-block.png" alt="" width="95%" height="auto"></a>
+                                </ng-template>
+                                <!-- <img src="./assets/images/gray-block.png" alt="{{tab[0].img}}"> -->
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8">
-                                {{tab[0].text}}
+                                <a (click)="startModal(tab[0].img)"><span [innerHTML]="processLinks(tab[0].text)"></span></a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +75,7 @@
 
         <!-- No content -->
         <div class="col" *ngIf="tab?.length===0">
-            <span [innerHTML]="getResource('no_content')"></span>
+            <a (click)="startModal(tab[0].img)"><span [innerHTML]="getResource('no_content')"></span></a>
         </div>
     </div>
 
@@ -71,4 +84,7 @@
             <a class="btn btn-light" (click)="navigateBack()" [innerHTML]="getResource('btn_back')"></a>
         </div>
     </div>
+
 </div>
+<!-- <app-modal [imgSubject]="subject"></app-modal> -->
+<!-- <app-modal></app-modal> -->

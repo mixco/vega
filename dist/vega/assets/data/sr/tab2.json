@@ -1,40 +1,57 @@
 [{
-        "link": "",
-        "text": "(Prevod 2) Whenever a system must act upon a stimulus within strict time limits, that system is categorized as \"real-time\" system. High predictability is the imperative, while performance needs to go only as high as it is needed for the task. A typical example is car airbag; upon accident it must inflate in milliseconds otherwise the whole system is useless. Engineers designing real-time systems must fully understand the environment in which it operates. Beside the necessity, we also enjoy digging into multidisciplinary engineering and science, beyond pure electronics and software.  ",
-        "icon": "alarm_on",
-        "pid": 21
-    },
+    "link": "O našoj flotili",
+    "text": "srpski xxx Our flotilla is for self sufficient crews. We do not offer cabin charter, nor pre-arranged skippered charter. This is not a commercial activity on our side. You simply join with your own crew, and the boat being private or charterred. The sole purpose is sharing experience and having fun together. There is no obligation to stick together all the time. For participants with no or little experience, a professional skipper should be employed. Flotilla consists of limited number of boats, for simplicity, we do not plan to occupy the whole port.",
+    "img": "marina_kavala_302x227.jpg",
+    "icon": "bowling-ball",
+    "pid": 21
+},
+
+{
+    "link": "Zašto učestvovati",
+    "text": "srpski xxx If your crew is already experienced, but want a company from time to time, you can sail with the fleet, but also make independent trips and rejoin the fleet at some point later.<br /><br />Less experienced have a unique opportunity to sail on their own, but still near the group leader and other crews. Advice, discussions, help if needed, a refresher lesson.<br /><br />We started this practice when our own kids were young, and in need of a company other than parents and maybe someone else aboard. It turned out that every generataion enjoyed spending evenings together at anchor, shearing ship stories from the last leg of the trip, or recepies, or mishaps, or jokes... and in the meantime, our 'kids' became young sailors.",
+    "img": "mata_pancakes_1_302x226.jpg",
+    "icon": "bowling-ball",
+    "pid": 21
+},
 
     {
-        "link": "",
-        "text": "Embedded platforms, electronic circuits with dedicated functionality. Such platform contains interfaces specific to the system in which it is embedded. Although designed to execute only specific tasks, embedded systems may run very complex software (in this content called firmware), due to the complexity of the task itself. Other than processing, mechanical and environmental integration is the next big thing in this field. More often than not, embedded systems operate in \"real-time\". We specialized in embedded, real time system development.  ",
-        "img": "temp1.png",
-        "icon": "donut_large",
-        "pid": 22
-    },
+    "link": "Organizacioni detalji",
+    "text": "srpski xxx Participating boats must be self-sufficient, crewed by a skipper and at least one able sailor. Our trips consists of island hoping, i.e 20 miles a day, but always a couple 50 to 70 miles legs, that is a whole day under the sails.  Nobody is taking any obligation in helping you sail the boat. Naturally, if need be we help each other, but this not a Sunsail type flotilla.<br /><br />Crews charter and sign contracts on their own. We can only advise and help you finding the right boat (as we do it for ourselves anyway).<br /><br />Different crews may want to cruise at different pace, more sailing, more snorkeling or more sightseeing... Everyone is welcome to leave and rejoin the fleet at will.<br /><br />Boat booking should be made early spring, do not wait for summer time.",
+    "img": "nenad_nav_300x200.jpg",
+    "icon": "bowling-ball",
+    "pid": 21
+},
 
-    {
-        "link": "",
-        "text": "Any system that requires some control contains a processor. It could be a tiny 8 bit controller with only Kilo-Bytes of memory, or very large application processor or SoC with a number of peripherals for higher integration and Giga-Bytes of external memory of various technologies. The experience with ARM and PowerPC cores is one of the most valuable assets of our group.",
-        "img": "temp2.png",
-        "icon": "vpn_key",
-        "pid": 23
-    },
+{
+    "link": "Ruta 2019",
+    "text": "July 20. - August 3. 2019.<br /><br />Athens - Milos - Momenvasia - Saronic islands - Athens",
+    "img": "race_300x225.jpg",
+    "icon": "bowling-ball",
+    "pid": 21
+},
 
-    {
-        "link": "",
-        "text": "Digital Signal Processors. This kind of processors are designed for computing, rather than connectivity, which is the characteristic of microcontrollers. Complex operations, such as video processing typically run on a DSP (in this particular case all operations must finish before the next frame arrives).",
-        "img": "temp0.png",
-        "icon": "vpn_key",
-        "pid": 24
-    },
+{
+    "link": "Naša uloga",
+    "text": "srpski xxx We are the initiators of this little venture, and will do the following:<br />- Register all participants, serve as a single point of contact;<br />- Help introduce incomplete crews with each other, if needed to make up a whole crew;<br />- Share our experience, we sailed throughout Greece in the past;<br />- Help crews charter the right boats;<br />- Our instructor may provide free refresher lessons (docking, anchoring,...);<br />- During the flotilla we will coordinate the activities, enjoyng our 'fleet commodore' role.",
+    "img": "dejan_hat_304x252.jpg",
+    "icon": "bowling-ball",
+    "pid": 21
+},
 
-    {
-        "link": "FPGA",
-        "text": "Field Programmable Gate Array is an in chip configurable digital circuit. The FPGAs are mainly used to run specific tasks, such as calculations (even faster than DSPs) or to interface to a non-standard circuit. By incorporating FPGA(s), a platform gets a dedicated hardware accelerator or glue logic at reasonable cost. The only thing faster than that is an ASIC (Application Specific Integrated Circuit), but to make any financial sense they must be produced in very large quantities. FPGAs are sometimes used for functional testing of a future ASIC.",
-        "img": "temp1.png",
-        "icon": "vpn_key",
-        "pid": 25
-    }
+{
+    "link": "Prijavljivanje",
+    "text": "srpski xxx Contact us by phone or mail, look at our info pages. This is what we need to know:<br /><br />- How big your group is, and if your crew is complete. <br />- Sailing experience. Other water sports also count.",
+    "img": "anchorage_daca_kitnos_294x184.jpg",
+    "icon": "bowling-ball",
+    "pid": 21
+},
+
+{
+    "link": "Prethodne godine",
+    "text": "srpski xxx 2018: Lavrio - Sunion - Kithnos - Serifos - Antiparos - Schoinoussa - Amorgos - Koufonisi - Paros - Siros - Kithnos - Fokaia - Lavrio.<br /><br />2017: Athens - Sunion - Kithnos - Paros - Rinia / Mikonos - Siros / Tinos - Kithnos - Idra - Spetses - Porto Cheli - Poros - Agistri - Athens.<br /><br />2016: Athens - O. Anavissou - Kithnos / Marika - Dokos - Spetses - Idra - Poros - Egina - Athens<br /><br />Chalcis - Lavrio - Kithnos - Sifnos - Folegandros - Poliegos - Milos - Sifnos - Serifos - Kithnos - Kea - Petalioi - Bufalo - Chalcis.<br /><br /> 2014: Kavala - Thasos - Aliki - Limnos/O. Pavlou - around Lesvos - Mithymna - Tsonia - O. Makris Vialos - Mitilini - Mersinia - O. Apotheki - Sigri - Ag. Efstratios - Limnos/Myrina - Sitonia/Porto Koufo.<br /><br />2013: Kavala - Thasos/Kalirakis - Aliki - Limnos/Myrina - Kira Panagia - Alonisos/Patitiri - O. Milia - Skopelos - Ak. Agnotas - Glosa - Lalaria - Skiathos - Tsougria - Skopelos - Skantzura - Peristera - Kira Panagia - Porto Koufo.<br /><br />Kavala - Thasos/Paradiso - Samothraki - Limnos/Myrina - Sitonia/Kalamitsi - Porto Koufo - Sikias - Kira Panagia - Patitiri - Skiros/O. Fokas - Skiros/O. Pefko - Peristera - Skopelos - Glosa - Skiathos - Tsoungira - O. Panormos - Patitiri - Kira Panagia - Porto Koufo.<br /><br />2011: Kavala - Thasos - Aliki - Limnos - Ag. Efstratios - Peristera - Koukounaries - Platania - Skiathos - O. Panormos - Patitiri - Kira Panagia - Skopelos - Skiathos - Agnodas - Skantzoura - Patitiri - O. Milia - Skopelos - Koukounaries - Platania.<br /><br />2009, 08, 07: Ionina Sea: Corfu, Lefkada, Meganisi, Kalamos, Ithaki, Kefalona, Zakynths.",
+    "img": "anchorage_clif_307x410.jpg",
+    "icon": "bowling-ball",
+    "pid": 22
+}
 
 ]

@@ -1,0 +1,17 @@
+{
+    "en": {
+        "btn_open": "Open",
+        "btn_back": "Back",
+        "title_featured": "Featured",
+        "no_content": "No content.",
+        "app_title": "Vega Omni"
+    },
+    "sr": {
+        "btn_open": "Prikaži",
+        "btn_back": "Nazad",
+        "title_featured": "Promotivno",
+        "no_content": "Nema sadržaja.",
+        "app_title": "Vega Omni"
+    }
+
+}

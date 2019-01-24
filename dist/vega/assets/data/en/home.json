@@ -1,38 +1,30 @@
 {
-    "title": "Electronical Engineering Consultant",
-    "subtitle": "Electronics and power",
+    "title": "Vega Sailing",
+    "subtitle": "slogan xxx",
     "submenu": [{
-            "icon": "atom",
-            "title": "Kljucna rec 1",
-            "content": ["Full turnkey solution", "Hourly consultation", "Individual engineer working on contract for you", "Partial design services within your development work frame", "Small production runs"]
+            "icon": "compass",
+            "title": "Sailing Courses",
+            "content": [
+                "Sail Canada certification", 
+                "Practical, on-water courses in Greece", 
+                "Navigation courses in Belgrade", 
+                "Marine VHF Licenses"]
         },
         {
             "icon": "life-ring",
-            "title": "Kljucna rec 2",
+            "title": "Flotilla Sailing",
             "content": [
-                "Customers with insufficient own engineering resources",
-                "Companies with seldom needs for electronic designs",
-                "Software companies looking for custom or integrated of-the-shelf hardware",
-                "Start-ups and proof of concepts ventures"
+                "Indipendant sailing trips, with company of other boats"
             ]
         },
         {
-            "icon": "balance-scale",
-            "title": "Kljucna rec 3",
+            "icon": "binoculars",
+            "title": "Sailing Info",
             "content": [
-                "Cost effective and controlled operation is possible.",
-                "Two tightly connected engineering teams: North America - Toronto and East Europe - Belgrade."
+                "Greek cruising grounds",
+                "Beaufort scale"
             ]
-        },
-        {
-            "icon": "dollar-sign",
-            "title": "Kljucna rec 4",
-            "content": ["If you need advice on a solution, or simply want to evaluate if we could support you, call us. We will invest a reasonable amount of time, free of charge, to help you shape a solution or resolve a problem."]
-        },
-        {
-            "icon": "dollar-sign",
-            "title": "Kljucna rec 5",
-            "content": ["New text bla, bla..."]
         }
+        
     ]
 }

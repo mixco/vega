@@ -1,8 +1,23 @@
 [{
-        "link": "",
-        "text": "We mastered our skills in several North American and European companies. They include start-up companies, midsize businesses, large corporations, versatile industries and technologies, all with their own venues.  Today, we incorporate the best of practices we have seen, being it the enthusiasm of a start-up, or procedural discipline required within large organizations. With the need of proper development practices along with cost reduction, engineering force is split between Canada and East Europe, Toronto and Belgrade. We serve customers across the globe, traveling where the work leads us as needed, if something cannot be done over voice or video conferencing and e-mails. ",
+        "link": "About the school",
+        "text": "Devoted to excellence in learning experience, Vega Sailing School offers courses leading to 'Sail Canada' certification. Well thought-out curriculum which 'Sail Canada' has been developing since 1931. <br />The school was established in 2004 in Toronto. The first classes of the entry level courses were thought on our Van-De-Stadt design 21 footer. In 2007 the first Intermediate course was held also on lake Ontario, but as of 2008 the school operations moved to Greece. At first at Ionian sea, then since 2010 all practical courses start and end in Kavala, on the norht coast of Aegean sea. Theoretical courses are held in Belgrade.<br />The school partnered with 'Aegeas Yachtning - Kavala', an accredited RYA school and charter company. They made available several boats in 38 to 44 feet range for our courses. We found that those mid-sized cruisers are best suited for teaching. Students can still feel the elements (wind and waves), but are also comfortable enough and provide adequate challenge in confined waters when docking.",
+        "img": "birds_eye_307x410.jpg",
         "icon": "check_circle",
         "pid": 41
+    },
+    {
+        "link": "People",
+        "text": "Dejan Marinković, founder, Sail Canada Cruising Instructor, PCOC i ROC(M) Instructor.<br />Activelly sailing since 1994. As skipper, I sailed the Mediterranean, Great Lakes, Carribean and Canadian Pacific coast and off-shore. After completing my first course, which happened to be Coastal Navigation, I realized how important it is to learn sailing in an organized way, following a carefully developed program. Over the years I completed the entire 'Sail Canada' cruising program, Basic to Off-shore and Nav courses, and then some other courses such as racing, boat maintenance... Finally, in 2004, I joined an Instructor Development Clinic and here I am, teaching others the skills of this great sport. I hold Master degree in Electrical Engineering, so engineering is what I do when away from boats.<br /><br />Nenad Antonić, skiper and course assistant.<br />Born on the Adriatic coast, and cruised the Adriatic for years in a boat of only 5m. Sailing on keelboats since 1993, Adriatic, Ioninan, Aegean sea and Great Lakes. Formal sailing education acquired throough Sail Canada cruising program. Nenad works as course assistant. Graduated at the Faculty of Electrical Engineering.<br /><br />Stathis Sofitsis, founder of Aegeas Yachting, RYA Yachmaster Offshore.<br />Sailing for over 40 years, since 1996 on a professional basis. Certified RYA Yachtmaster Offshore sailing instructor for sailing boats up to 200 tons. Every year I sail more than 4000 miles either as a skipper on chartered sailing boats, racing or teaching. In 2010 I partnered with Vega Sailing with aim to provide our students flexible scheduling, Sail Canada and/or RYA certification and courses in English, Greek and Serbian languages. I graduated Physisc at University of Thessaloniki.",
+        "img": "temp1.png",
+        "icon": "check_circle",
+        "pid": 41
+    },
+    {
+        "link": "Contact us",
+        "text": "To enquire about the courses, this web site, or have any sailing related topic to discuss, the best way is to send an e-mail to:  dejan@vegasailing.com<br /><br />In Toronto<br />Tel: +1.647.951.5819<br /><br />In Belgrade<br />+381.62.871.8832 or +381.63.624.075",
+        "img": "satelite_view_300x225.jpg",
+        "icon": "check_circle",
+        "pid": 42
     }
 
 ]

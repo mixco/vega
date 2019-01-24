@@ -1,0 +1,143 @@
+[{
+        "title": "Home",
+        "component": "home",
+        "id": 0,
+        "submenu": []
+    },
+    {
+        "title": "Courses",
+        "component": "courses",
+        "id": 1,
+        "submenu": [{
+                "title": "  About Our Courses ",
+                "desc": "General information on location, boats, accomodation, living aboard.<br /> Visit https://ontariosailing.ca/#",
+                "icon": "asterisk",
+                "img": "mb.png",
+                "state": "active",
+                "id": 11
+            },
+            {
+                "title": "  Sail Canada I Course - Basic Cruising Standard ",
+                "desc": "Sail in familiar waters, <br />in moderate wind and sea conditions by day. 27 hours, mainly on water.",
+                "icon": "water",
+                "img": "mb.png",
+                "state": "active",
+                "id": 11
+            },
+            {
+                "title": "  Sail Canada II Course - Intermediate Cruising Standard ",
+                "desc": "Gain skills for extended cruising in coastal waters and for bareboat chartering. 7 days liveaboard.",
+                "icon": "water",
+                "img": "mb.png",
+                "state": "active",
+                "id": 12
+            },
+            {
+                "title": "  Sail Canada BN Course - Coastal Navigation Standard",
+                "desc": " Plan voyages and safely navigate in coastal and inland waters. 18 classroom hours.",
+                "icon": "drafting-compass",
+                "img": "mb.png",
+                "state": "active",
+                "id": 13
+            },
+            {
+                "title": "  ROC(M) Course - Marine VHF license",
+                "desc": "Canadian Federal government issued license that allows you to operate a marine VHF radio, accepted worldwide. 9 classroom hours",
+                "icon": "atom",
+                "img": "mb.png",
+                "state": "active",
+                "id": 14
+            },
+            {
+                "title": "  RYA Courses",
+                "desc": "Royal Yachting Association (British) sailing courses are available through our colaboration with Aegeas Yachting, Kavala, an accredited RYA School.",
+                "icon": "plus-square",
+                "img": "mb.png",
+                "state": "active",
+                "id": 15
+            }
+        ]
+    },
+    {
+        "title": "Flotilla",
+        "component": "flotilla",
+        "id": 2,
+        "submenu": [{
+                "title": "Flot 1",
+                "desc": "",
+                "icon": "anchor",
+                "img": "mb.png",
+                "state": "active",
+                "id": 21
+            },
+            {
+                "title": "Flot 2",
+                "desc": "",
+                "icon": "anchor",
+                "img": "mb.png",
+                "state": "active",
+                "id": 22
+            }
+        ]
+    },
+    {
+        "title": "Sailing Info",
+        "component": "sailing_info",
+        "id": 3,
+        "submenu": [{
+                "title": "Bufourt Scale",
+                "desc": "",
+                "icon": "anchor",
+                "img": "mb.png",
+                "state": "active",
+                "id": 31
+            },
+            {
+                "title": "Learning to Sail",
+                "desc": "",
+                "icon": "anchor",
+                "img": "mb.png",
+                "state": "active",
+                "id": 32
+            },
+            {
+                "title": "Other",
+                "desc": "",
+                "icon": "anchor",
+                "img": "mb.png",
+                "state": "active",
+                "id": 33
+            }
+        ]
+    },
+    {
+        "title": "Abouts",
+        "component": "about",
+        "id": 4,
+        "submenu": [{
+                "title": "About Usx",
+                "desc": "",
+                "icon": "anchor",
+                "img": "mb.png",
+                "state": "active",
+                "id": 41
+            },
+            {
+                "title": "Code of Conductx",
+                "desc": "",
+                "icon": "anchor",
+                "img": "mb.png",
+                "state": "active",
+                "id": 42
+            },
+            {
+                "title": "Contactx",
+                "desc": "",
+                "icon": "anchor",
+                "img": "mb.png",
+                "state": "active",
+                "id": 43
+            }
+        ]
+    }
+]
