@@ -10,7 +10,8 @@
                 </a>
                 <div class="navbar-collapse" id="navbarSupportedContent" [ngClass]="{'collapse': isCollapsed}">
                     <ul class="navbar-nav" *ngIf="menu">
-                        <li *ngFor="let item of menu; let i = index" class="nav-item" [ngClass]="{'active':i==0 }" (click)="toggleCollapsed()">
+                        <li *ngFor="let item of menu; let i = index" class="nav-item" [ngClass]="{'active': activeItemId === item.id }" (click)="toggleCollapsed(item.id)">
+                        <!-- <li *ngFor="let item of menu; let i = index" class="nav-item" (click)="toggleCollapsed()"> -->
                             <a class="nav-link" routerLink="/home" *ngIf="i===0"> {{item.title}} <span class="sr-only">(current)</span></a>
                             <a class="nav-link" [routerLink]="['/tab', item.id]" href="#" *ngIf="i>0">{{item.title}}</a>
                         </li>

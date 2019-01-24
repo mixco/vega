@@ -4,7 +4,7 @@ import { GetConfigService } from '../shared/services/config.service';
 import { Menu } from '../shared/model/menu';
 import { LanguageService } from '../shared/services/language.service';
 import { ResourcesService } from '../shared/services/resources.service';
-import { Title }     from '@angular/platform-browser';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-header',
@@ -15,21 +15,22 @@ export class HeaderComponent implements OnInit {
 
   menu: Menu[];
   languages = [];
-  selected = "en";
+  selected = 'en';
+  activeItemId = 0;
   isCollapsed = true;
-  
+
   constructor(private getMenuService: GetMenuService,
-              private getConfigService: GetConfigService,
-              private languageService: LanguageService,
-              private resourcesService: ResourcesService,
-              private titleService: Title) { }
+    private getConfigService: GetConfigService,
+    private languageService: LanguageService,
+    private resourcesService: ResourcesService,
+    private titleService: Title) { }
 
   ngOnInit() {
     this.resourcesService.getContent().subscribe(
       res => {
         this.resourcesService.resource = res;
         this.titleService.setTitle(res[this.selected].app_title);
-      }, 
+      },
       error => console.log(error)
     )
     this.getConfig();
@@ -38,19 +39,22 @@ export class HeaderComponent implements OnInit {
   }
 
 
-  toggleCollapsed(): void {
+  toggleCollapsed(id?: number): void {
     this.isCollapsed = !this.isCollapsed;
+    if (id) {
+      this.activeItemId = id;
+    }
   }
 
-  getConfig(){
+  getConfig() {
     this.getConfigService.getContent()
-    .subscribe(c => {
-      this.languages = c.languages;
-      this.getConfigService.setConfig(c);
-    });
+      .subscribe(c => {
+        this.languages = c.languages;
+        this.getConfigService.setConfig(c);
+      });
   }
 
-  getMenu(){
+  getMenu() {
     const url = 'menu.json';
     this.getMenuService.getContent(url)
       .subscribe(c => {
@@ -69,7 +73,7 @@ export class HeaderComponent implements OnInit {
     console.log(a);
   }
 
-  switchLanguage(lang: string){
+  switchLanguage(lang: string) {
     this.selected = lang;
     this.languageService.setLanguage(lang);
     this.getMenu();

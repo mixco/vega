@@ -38,6 +38,8 @@
 .home-head-img {
     /* background-image: url("assets/images/el.png"); */
     background-image: url("assets/images/el.png");
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 .home-title {
@@ -55,4 +57,14 @@
 
 .home-font-weight {
     font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 400;
+    color: #222222;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ff8701;
+    font-weight: 500;
 }

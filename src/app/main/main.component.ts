@@ -17,11 +17,11 @@ export class MainComponent implements OnInit, OnDestroy {
   navigationSubscription;
 
   constructor(private getMenuService: GetMenuService,
-              private route: ActivatedRoute,
-              private router: Router,
-              private resourcesService: ResourcesService,
-              private helperService: HelperService,
-              private languageService: LanguageService) { }
+    private route: ActivatedRoute,
+    private router: Router,
+    private resourcesService: ResourcesService,
+    private helperService: HelperService,
+    private languageService: LanguageService) { }
 
   ngOnInit() {
     // get all resources
@@ -34,10 +34,10 @@ export class MainComponent implements OnInit, OnDestroy {
       }
     });
     this.languageService.detectLanguageChange
-    .subscribe(message => {
-    //  console.log(message);
-     this.getContent();
-    }); 
+      .subscribe(message => {
+        //  console.log(message);
+        this.getContent();
+      });
   }
 
   getContent() {
@@ -55,8 +55,8 @@ export class MainComponent implements OnInit, OnDestroy {
     console.log(a);
   }
 
-  getResource(name:string){
-    const lng =  this.languageService.getLanguage();
+  getResource(name: string) {
+    const lng = this.languageService.getLanguage();
     return this.resource[lng][name];
   }
 
@@ -67,18 +67,30 @@ export class MainComponent implements OnInit, OnDestroy {
   //   return retVal;
   // }
 
-  processLinks(desc:string){
+  processLinks(desc: string) {
+  // processLinks(descLink: string) {
+    // const desc = this.processInternalLinks(descLink);
     const position = desc.search('http');
-    if(position>0){
-      return desc.replace(/http(.*?)(#)/g, this.helperService.replacer);
+    if (position > 0) {
+      const final = desc.replace(/http(.*?)(#)/g, this.helperService.replacer);
+      console.log(final);
+      return final;
     }
-      return desc;
+    return desc;
+  }
+
+  processInternalLinks(desc: string) {
+    const position = desc.search('ittp');
+    if (position > 0) {
+      return desc.replace(/ittp(.*?)(#)/g, this.helperService.linker);
+    }
+    return desc;
   }
 
   ngOnDestroy() {
 
     if (this.navigationSubscription) {
-       this.navigationSubscription.unsubscribe();
+      this.navigationSubscription.unsubscribe();
     }
   }
 
