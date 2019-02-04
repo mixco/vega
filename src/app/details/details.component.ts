@@ -50,7 +50,7 @@ export class DetailsComponent implements OnInit {
 
   startModal(img:string) {
     // this.subject.next(img);
-    const modalRef = this.modalService.open(ModalComponent, {backdropClass: 'light-blue-backdrop', centered: true});
+    const modalRef = this.modalService.open(ModalComponent, {backdropClass: 'light-blue-backdrop', centered: true, size: 'lg'});
     modalRef.componentInstance.name = img;
   }
 

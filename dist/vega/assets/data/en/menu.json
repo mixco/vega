@@ -8,7 +8,8 @@
         "title": "Courses",
         "component": "courses",
         "id": 1,
-        "submenu": [{
+        "submenu": [
+            {
                 "title": " Overview of the Courses ",
                 "desc": "General information on learning path, licensing, participation.",
                 "icon": "asterisk",
@@ -56,14 +57,15 @@
                 "state": "active",
                 "id": 15
             }
-
+            
         ]
     },
     {
         "title": "Flotilla",
         "component": "flotilla",
         "id": 2,
-        "submenu": [{
+        "submenu": [
+            {
                 "title": "Flotilla 2019",
                 "desc": "Sail in Greek waters. Gain experience. Have fun. Make friends.",
                 "icon": "anchor",
@@ -85,14 +87,16 @@
         "title": "Sailing Info",
         "component": "sailing_info",
         "id": 3,
-        "submenu": [{
-            "title": "Beaufort Scale",
-            "desc": "Wind speed and sea state scale.",
-            "icon": "anchor",
-            "img": "mb.png",
-            "state": "active",
-            "id": 31
-        }]
+        "submenu": [
+            {
+                "title": "Beaufort Scale",
+                "desc": "Wind speed and sea state scale.",
+                "icon": "anchor",
+                "img": "mb.png",
+                "state": "active",
+                "id": 31
+            }
+        ]
     },
     {
         "title": "Abouts",

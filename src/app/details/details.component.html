@@ -2,7 +2,8 @@
     <div class="row">
         <div class="col btm1rem">
             <button class="btn btn-outline-secondary" (click)="navigateBack()" [innerHTML]="getResource('btn_back')" *ngIf="resource"></button>
-            <small class="font-weight-light" [ngStyle]="{'margin-left': '1rem', 'color': '#a6630c'}">{{menuTitle}} / {{subMenuTitle}}</small>
+            <!-- <small class="font-weight-light" [ngStyle]="{'margin-left': '1rem', 'color': '#a6630c', 'font-weight': '500'}">{{menuTitle}} / {{subMenuTitle}}</small> -->
+            <small [ngStyle]="{'margin-left': '1rem', 'font-weight': '500'}">{{menuTitle}} / {{subMenuTitle}}</small>
         </div>
     </div>
     <div class="row" *ngIf="tab">
@@ -25,7 +26,7 @@
                                             <img src="./assets/images/gray-block.png" alt="">
                                         </ng-template> -->
                                         <ng-container *ngIf="item.img !== ''; else imgPlaceholder">
-                                            <a (click)="startModal(item.img)"><img [src]="'./assets/images/' + item.img" alt="" width="95%" height="auto"></a>
+                                            <a (click)="startModal(item.img)" class="mod-img"><img [src]="'./assets/images/' + item.img" alt="" width="95%" height="auto"></a>
                                         </ng-container>
                                         <ng-template #imgPlaceholder>
                                             <a (click)="startModal(item.img)"><img src="./assets/images/gray-block.png" alt="" width="95%" height="auto"></a>

@@ -1,11 +1,11 @@
 {
     "languages": [{
             "abr": "en",
-            "name": "English"
+            "name": "ENG"
         },
         {
             "abr": "sr",
-            "name": "Srpski"
+            "name": "SRB"
         }
     ],
     "colors": {

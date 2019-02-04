@@ -10,8 +10,8 @@
     "id": 1,
     "submenu": [
         {
-            "title": " Pregled kurseva ",
-            "desc": "Opšte informacije, licenciranje, školska pravila.",
+            "title": " Opšte informacije o kursevima ",
+            "desc": "Šema edukacija, licenciranje, školska pravila.",
             "icon": "asterisk",
             "img": "mb.png",
             "state": "active",
@@ -67,7 +67,7 @@
     "submenu": [
         {
             "title": "Flotila 2019",
-            "desc": "Krstarnje u Grčkoj. Steknite iskustvo i prijatelje.",
+            "desc": "Krstarnje u Grčkoj. Steknite iskustvo i prijatelje tokom zajedničkog jedrenja.",
             "icon": "anchor",
             "img": "mb.png",
             "state": "active",

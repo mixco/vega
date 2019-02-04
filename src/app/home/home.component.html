@@ -13,14 +13,9 @@
                 <i class="home-icon fas" [ngClass]="'fa-'+item.icon"></i> {{item.title}}
             </div>
             <div class="col-8 pd1rem">
-                <ng-container *ngIf="item.content.length > 1; else singleItem">
-                    <ul [ngStyle]="{'padding-left': '5px'}">
-                        <li class="home-font-weight" *ngFor="let cont of item.content">{{cont}}</li>
-                    </ul>
-                </ng-container>
-                <ng-template #singleItem>
-                    <div class="home-font-weight">{{item.content[0]}}</div>
-                </ng-template>
+                <ul [ngStyle]="{'padding-left': '5px', 'margin-top': '5px'}" *ngIf="item.content.length > 0">
+                    <li class="home-font-weight" *ngFor="let cont of item.content">{{cont}}</li>
+                </ul>
             </div>
         </ng-container>
     </div>

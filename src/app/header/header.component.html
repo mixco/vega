@@ -11,7 +11,7 @@
                 <div class="navbar-collapse" id="navbarSupportedContent" [ngClass]="{'collapse': isCollapsed}">
                     <ul class="navbar-nav" *ngIf="menu">
                         <li *ngFor="let item of menu; let i = index" class="nav-item" [ngClass]="{'active': activeItemId === item.id }" (click)="toggleCollapsed(item.id)">
-                        <!-- <li *ngFor="let item of menu; let i = index" class="nav-item" (click)="toggleCollapsed()"> -->
+                            <!-- <li *ngFor="let item of menu; let i = index" class="nav-item" (click)="toggleCollapsed()"> -->
                             <a class="nav-link" routerLink="/home" *ngIf="i===0"> {{item.title}} <span class="sr-only">(current)</span></a>
                             <a class="nav-link" [routerLink]="['/tab', item.id]" href="#" *ngIf="i>0">{{item.title}}</a>
                         </li>
@@ -19,7 +19,7 @@
                 </div>
                 <div class="form-inline my-2 my-lg-0">
                     <ng-container *ngFor=" let lang of languages ">
-                        <button type="button" class="btn spc05rem" (click)="switchLanguage(lang.abr)" [ngClass]="{'btn-light': selected!==lang.abr, 'btn-secondary': selected===lang.abr}">{{lang.abr}}</button>
+                        <button type="button" class="btn spc05rem" (click)="switchLanguage(lang.abr)" [ngClass]="{'btn-light': selected!==lang.abr, 'btn-secondary': selected===lang.abr}">{{lang.name}}</button>
                         <!-- <button [class.active]="selected === lang.name" (click)="selected = (selected === lang ? null :lang)">{{lang.abr}}</button> -->
                     </ng-container>
                     <!-- <button type="button" class="btn btn-secondary spc05rem" (click)="switchLanguage('en')">en</button> -->
