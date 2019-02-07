@@ -5,7 +5,8 @@
     </button>
   </div> -->
 <div class="modal-body">
-    <img src="./assets/images/{{name}}" class="img-responsive" width="100%" height="auto">
+    <img src="./assets/images/{{name}}" class="img-responsive" [ngStyle]="{'max-height': '600px', 'max-width': '770px'}">
+    <!-- <img src="./assets/images/{{name}}" class="img-responsive" width="100%" height="auto"> -->
 </div>
 <div class="modal-footer">
     <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>

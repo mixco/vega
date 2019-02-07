@@ -26,4 +26,8 @@ export class GetMenuService {
   saveMenu(menu) {
     this.menu = menu;
   }
+
+  getMenuItemById(id:number){
+    return this.menu[id].title;
+  }
 }

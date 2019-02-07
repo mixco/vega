@@ -14,6 +14,7 @@ import { HelperService } from '../shared/services/helper.service';
 export class MainComponent implements OnInit, OnDestroy {
   resource = [];
   menu: Menu[];
+  menuTitle = '';
   navigationSubscription;
 
   constructor(private getMenuService: GetMenuService,
@@ -43,10 +44,11 @@ export class MainComponent implements OnInit, OnDestroy {
   getContent() {
     const id = +this.route.snapshot.paramMap.get('id');
     const url = 'menu.json';
+    this.menuTitle = this.getMenuService.getMenuItemById(id);
     this.getMenuService.getContent(url)
       .subscribe(c => {
         this.menu = c.find(item => item.id === id).submenu;
-        // console.log(this.menu);
+        console.log(this.menu);
       });
   }
 
@@ -54,6 +56,7 @@ export class MainComponent implements OnInit, OnDestroy {
     const a = this.getMenuService.getSubMenu(id);
     console.log(a);
   }
+  
 
   getResource(name: string) {
     const lng = this.languageService.getLanguage();

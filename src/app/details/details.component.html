@@ -26,10 +26,10 @@
                                             <img src="./assets/images/gray-block.png" alt="">
                                         </ng-template> -->
                                         <ng-container *ngIf="item.img !== ''; else imgPlaceholder">
-                                            <a (click)="startModal(item.img)" class="mod-img"><img [src]="'./assets/images/' + item.img" alt="" width="95%" height="auto"></a>
+                                            <a (click)="startModal(item.img)" class="mod-img"><img [src]="'./assets/images/' + item.img" alt="" width="95%" max-height="auto"></a>
                                         </ng-container>
                                         <ng-template #imgPlaceholder>
-                                            <a (click)="startModal(item.img)"><img src="./assets/images/gray-block.png" alt="" width="95%" height="auto"></a>
+                                            <a><img src="./assets/images/gray-block.png" alt="" width="95%" height="auto"></a>
                                         </ng-template>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-8">
@@ -57,7 +57,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <!-- <img src="./assets/images/satelite_view_300x225.jpg" alt=""> -->
                                 <ng-container *ngIf="tab[0].img !== ''; else imgPlaceholder">
-                                    <a (click)="startModal(tab[0].img)"><img [src]="'./assets/images/' + tab[0].img" alt="" width="95%" height="auto"></a>
+                                    <a (click)="startModal(tab[0].img)" class="mod-img"><img [src]="'./assets/images/' + tab[0].img" alt="" width="95%" height="auto"></a>
                                 </ng-container>
                                 <ng-template #imgPlaceholder>
                                     <a (click)="startModal(tab[0].img)"><img src="./assets/images/gray-block.png" alt="" width="95%" height="auto"></a>
@@ -65,7 +65,7 @@
                                 <!-- <img src="./assets/images/gray-block.png" alt="{{tab[0].img}}"> -->
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-8">
-                                <a (click)="startModal(tab[0].img)"><span [innerHTML]="processLinks(tab[0].text)"></span></a>
+                                <a><span [innerHTML]="processLinks(tab[0].text)"></span></a>
                             </div>
                         </div>
                     </div>

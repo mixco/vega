@@ -39,11 +39,12 @@ export class HeaderComponent implements OnInit {
   }
 
 
-  toggleCollapsed(id?: number): void {
+  toggleCollapsed(): void {
     this.isCollapsed = !this.isCollapsed;
-    if (id) {
-      this.activeItemId = id;
-    }
+  }
+
+  toggleActive(id:number):void {
+    this.activeItemId = id;
   }
 
   getConfig() {
